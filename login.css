@@ -1,0 +1,46 @@
+body {
+  width: 15rem;
+}
+
+#back-btn {
+  position: absolute;
+  bottom: 0.1rem;
+  right: 0.1rem;
+  border-radius: 50%;
+}
+
+.panel {
+  display: flex;
+  /* background-color: purple; */
+  margin-bottom: 0.8rem;
+}
+
+.tab {
+  width: 50%;
+  text-align: center;
+}
+
+.tab h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.form-box button {
+  display: block;
+}
+
+.form-box label {
+  display: block;
+}
+
+.form-box input {
+  margin-bottom: 0.5rem;
+}
+
+.hide {
+  display: none;
+}
+
+.active {
+  background-color: #ffbd4a;
+}

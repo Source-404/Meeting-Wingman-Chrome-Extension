@@ -1,0 +1,42 @@
+body {
+  width: 15rem;
+}
+
+button {
+  background-color: #7b1cd7;
+  color: white;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.box {
+  margin-bottom: 0.5rem;
+}
+
+.box1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box1 input {
+  width: 60%;
+}
+.box3 textarea {
+  width: 60%;
+}
+
+.box3 button {
+  width: 60%;
+}
+
+/* .box3 {
+  margin: auto;
+} */
+
+/* .box3 button {
+  display: block;
+} */

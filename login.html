@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <!-- <h1>Login/Sign-up</h1> -->
+    <div class="panel">
+      <div id="tab1" class="tab active"><h1>Login</h1></div>
+      <div id="tab2" class="tab"><h1>Sign-up</h1></div>
+    </div>
+
+    <div id="login-box" class="form-box">
+      <label>Email: </label>
+      <input id="login-email" type="mail" />
+      <br />
+      <label>Password: </label>
+      <input id="login-pass" type="password" />
+
+      <button id="login-submit">Submit</button>
+    </div>
+
+    <div id="sign-up-box" class="form-box hide">
+      <label>Email: </label>
+      <input type="mail" />
+      <br />
+      <label>Phone Number: </label>
+      <input type="mail" />
+      <br />
+      <label>Password: </label>
+      <input type="password" />
+
+      <button type="submit" id="sign-up-submit">Submit</button>
+    </div>
+
+    <a href="./index.html"><button id="back-btn">GO</button></a>
+    <a href="./profile.html"><button>Update Profile</button></a>
+    <script src="login.js"></script>
+  </body>
+</html>
